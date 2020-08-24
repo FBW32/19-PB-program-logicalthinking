@@ -6,15 +6,23 @@
     0, 100	100
     52, 35	52
 */
+// -let a be the first input. let b be the second input. If a is greater than b , print a . else print b.
+
 let a = 2;
 let b = 5;
-console.log(Math.max(a, b)); // 5
+let result1 = (a > b) ? "2" : "5";
+console.log(result1); // 5
+
 let c = 0;
 let d = 100;
-console.log(Math.max(c, d)); // 100
+let result2 = (c > d) ? "0" : "100";
+console.log(result2); // 100
+
 let e = 52;
 let f = 35;
-console.log(Math.max(e, f)); // 52
+let result3 = (e > f) ? "52" : "35";
+console.log(result3); // 52
+
 
 /* 2.
     Input	Output
